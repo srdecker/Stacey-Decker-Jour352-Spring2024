@@ -1,0 +1,8 @@
+/*
+ * RED = #f4442e
+*/
+
+img {
+    width:100%;
+    border:solid 5px #f4442e;
+}
