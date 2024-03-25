@@ -1,0 +1,63 @@
+/*
+ * Tan = #f8dcbf
+ * Blue = #045174
+ * Dark blue = #001f3d
+*/
+
+@media {
+    img {
+        width: 80%;
+    }
+
+    h1 {
+        margin: 0px 0px 20px 0px;
+        font-size: 90px;
+        color: #f8dcbf;
+        font-family: "Parisienne", cursive;
+    }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 0px 20px 0px;
+        text-transform: uppercase;
+        color: #f8dcbf;
+        font-weight:400;
+        letter-spacing: 2px;
+        font-size:30px;
+    }
+    
+    
+
+    #topper {
+        background-color: #045174;
+        padding: 100px 50px 100px 50px;
+        text-align:center;
+    }
+
+    .description {
+        font-family: "Montserrat", sans-serif;
+        color:#f8dcbf;
+font-size:14px;
+font-style: italic; 
+            margin: 0px 0px 20px 0px;
+}
+    
+    button {
+        background-color: #045174;
+        border:7px solid #001f3d;
+        padding:20px 20px 20px 20px;
+        font-family: "Montserrat", sans-serif;
+        color:#f8dcbf;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight:400;
+    }
+    
+    button:hover {
+        border: 7px solid #f8dcbf;
+    }
+}
+
+@media (min-width: 576px) {
+
+}

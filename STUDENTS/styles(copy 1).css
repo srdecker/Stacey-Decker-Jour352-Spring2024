@@ -1,0 +1,119 @@
+/*
+ * dark navy = 01161E
+ * navy = 124559
+ * blue-gray = 598392
+ * mint = AEC3B0
+ * sand = EFF6E0
+*/
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.ovo-regular {
+  font-family: "Ovo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@media{
+
+img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 75%;
+}
+
+h1 {
+   margin:10px;
+    padding: 30px, 20px, 30px, 20px;
+    font-size: 70px;
+    font-family: "ovo", serif;
+    color: #272727;
+    text-align:center;
+}
+    h2{
+        font-family:"ovo", serif;
+        font-size:40px;
+    }
+
+    
+    #topper{
+        background-color: #CBDDD1;
+        text-align: center;
+        padding: 50px, 20px, 50px, 20px;
+    }
+    
+    button{
+        background-color: 01161E;
+        font-family: "ovo", serif;
+    }
+    #body{
+        font-family: "monsterrat", sans-serif;
+        color: #01161E;
+        padding: 0px, 0px, 0px, 0px;
+    }
+    #jobtitle{
+        color: #01161E;
+        font-size: 25px;
+    }
+    #place{
+        color: #598392;
+        font-size:20px;
+    }
+    
+    #time{
+        color: #598392;
+        font-size:18px;
+    }
+    
+    #content{
+        font-family: "Montserrat", sans-serif;
+        background-color: #CBDDD1;    
+         padding: 0px, 0px, 0px, 0px;
+    }
+    
+    #navigation{
+        padding:0px 80px 0px 80px;
+        text-align:center;
+    }
+    
+    #navigation a{
+        background-color: #AEC3B0;
+        color:black;
+        font-size: 50px;
+        font-family: "oso", serif;
+    }
+    #education{
+        text-align:center;
+    }
+    
+    #edu.body{
+        text-align:center;
+    }
+    #edubody2{
+        text-align:center;
+    }
+    #contact{
+        font-size: 30px;
+        text-align: center;
+        font-family:"ovo", serif;
+    }
+    #skill{
+        color: #598392;
+    }
+}
+
+@media (min-width:576px){
+    h1{
+        margin: 40px 0px 10px 5px
+        font-size: 70px;
+    }
+}

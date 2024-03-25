@@ -1,0 +1,139 @@
+/*
+#050A30 - General background color
+#233DFF - Navbar background/horizontal lines color
+#E16834 - Button background color
+ */
+
+@media {
+body {
+    background-color: #050A30; /* Background color of the body */
+    font-family: "Archivo Black"; /* Default font for the website */
+    color: #e5e5e5; /* Default text color */
+}
+
+
+/* Navigation bar styles */
+#navbar {
+    background-color: #233DFF; /* Background color for navbar */
+}
+
+#navbar .nav-link {
+    color: #e5e5e5; /* Text color for navbar links */
+    text-decoration: underline;
+    font-size: 25px
+}
+
+#navbar .navbar-nav .nav-item {
+    padding: 0 10px; /* Spacing between navbar items */
+}
+
+/* Section heading styles */
+.section-heading {
+    margin-bottom: 20px; /* Spacing below section headings */
+    color: #e5e5e5; /* Text color for section headings */
+    font-size: 24px; /* Text size for section headings */
+    text-align: center; /* Center-align section headings */
+}
+
+/* Experience section styles */
+.experience-entry h3 {
+    color: #e5e5e5;
+    font-weight: bold;
+    font-size: 20px; /* Text size for job titles */
+    margin-top: 30px; /* Spacing above job titles */
+}
+
+.experience-entry .company {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.experience-entry .date-range {
+    margin-bottom: 10px; /* Spacing below date range */
+}
+
+.experience-entry p {
+    margin-bottom: 50px
+}
+
+/* Skills section styles */
+#skills p {
+    margin-bottom: 5px; /* Spacing below each skill */
+}
+
+/* Education section styles */
+.education-entry p {
+    margin-bottom: 5px; /* Spacing below each line in education entries */
+}
+
+.education-entry {
+    padding-bottom: 40px;
+}
+
+.education-entry .university {
+    font-style: italic;
+}
+
+
+.site-topper {
+  background-color: #050A30; /* Background color of the site topper */
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.site-topper h1 {
+  font-size: 36px; /* Size of the name title */
+  color: #ffffff; /* Text color of the name */
+    text-align: center;
+}
+
+.site-topper .lead {
+  font-size: 20px; /* Size of the lead text */
+  color: #ffffff; /* Text color of the lead text */
+    text-align: center;
+}
+
+.site-topper img {
+  max-width: 300px; /* Adjust size as needed */
+  margin-bottom: 20px;
+}
+
+/* Navigation bar styles */
+#navbar {
+  margin-top: 20px; /* Space above the navbar */
+}
+
+#navbar .nav-link {
+  color: #e5e5e5; /* Text color for navbar links */
+  margin-right: 15px; /* Spacing between navbar items */
+}
+
+.btn-primary {
+  background-color: #e85d04; /* Button background color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Button padding */
+  color: #ffffff; /* Button text color */
+}
+}
+
+@media (max-width: 576px) {
+    body {
+        margin-bottom: 60px; /* Smaller space for navbar on phones */
+    }
+
+    #navbar .nav-link {
+        font-size: 25px; /* Smaller text for navbar links on phones */
+    }
+
+    .section-heading {
+        font-size: 20px; /* Smaller text for section headings on phones */
+    }
+
+    .experience-entry h3 {
+        font-size: 18px; /* Smaller text for job titles on phones */
+    }
+
+    #skills .col-md-4 {
+        margin-bottom: 20px; /* Spacing between skill columns on phones */
+    }
+}
