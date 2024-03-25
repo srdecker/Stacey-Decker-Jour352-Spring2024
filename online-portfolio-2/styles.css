@@ -5,15 +5,17 @@
 */
 
 @media {
+    
     img {
         width: 80%;
     }
 
     h1 {
         margin: 0px 0px 20px 0px;
-        font-size: 90px;
+        font-size: 60px;
         color: #f8dcbf;
         font-family: "Parisienne", cursive;
+        text-align:center;
     }
 
     h2 {
@@ -29,24 +31,46 @@
     #topper {
         background-color: #045174;
         padding: 100px 50px 100px 50px;
-        text-align: center;
+        text-align:center;
+        border-bottom: 5px dashed blue;
     }
 
+    
+    .description {
+        font-family: "Montserrat", sans-serif;
+        color: #f8dcbf;
+    }
+    
+    .bold {
+        font-weight:bold;
+    }
+    
     button {
         background-color: #045174;
         border: 7px solid #001f3d;
-        padding: 20px 20px 20px 20px;
+        padding: 10px 20px 10px 20px;
         font-family: "Montserrat", sans-serif;
         color: #f8dcbf;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: 400;
+        margin:50px 0px 0px 0px;
     }
 
     button:hover {
         border: 7px solid #f8dcbf;
     }
+    
+    #navigation {
+        text-align:center;
+        padding:0px 10% 0px 10%;
+    }
 }
 
-@media (min-width: 576px) {
+@media (min-width:576px) {
+    
+    h1 {
+        font-size: 90px;
+    }
+    
 }
