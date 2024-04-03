@@ -1,0 +1,40 @@
+@media {
+    body {
+        font-family: Georgia, serif;
+    }
+
+    #article {
+        width: 70%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #date {
+        color: gray;
+        font-size: 11px;
+    }
+
+    #byline {
+        font-weight: bold;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+        background-color: black;
+        color: white;
+        left: 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 80px;
+    }
+}
