@@ -1,0 +1,59 @@
+/* Color palette
+ * Dark blue - #1A467D
+ */
+
+@media {
+    img {
+        width: 100%;
+    }
+
+    #topper {
+        background-image: url(oakImage-1708010573771-superJumbo.jpg);
+        background-size: cover;
+        background-position: 10% 10%;
+        height: 450px;
+        /*background-color:#1A467D;*/
+    }
+
+    h1 {
+        padding: 10px 10px 10px 10px;
+        margin: 0px 100px 0px 0px;
+        background-color: #000000;
+        color: white;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    .credit {
+        font-weight: bold;
+        color: gray;
+        text-transform: uppercase;
+    }
+
+    .date {
+        text-align: center;
+    }
+
+    #content {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .inlineimage {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    #content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    #content {
+        width: 60%;
+    }
+}
