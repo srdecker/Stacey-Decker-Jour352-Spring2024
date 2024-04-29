@@ -3,6 +3,11 @@
  */
 
 @media {
+    
+    body {
+        background-color:beige;
+    }
+    
     img {
         width: 100%;
     }
@@ -17,7 +22,7 @@
 
     h1 {
         padding: 10px 10px 10px 10px;
-        margin: 0px 100px 0px 0px;
+        margin: 300px 100px 0px 0px;
         background-color: #000000;
         color: white;
     }
@@ -44,11 +49,43 @@
     .inlineimage {
         width: 100%;
     }
+
+    .pullquote {
+        border-left: 3px solid #1a467d;
+        background-color: beige;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        margin: 20px 0px 20px 0px;
+        width:100%;
+        float:right;
+    }
+
+    .quote {
+        font-size: 50px;
+    }
+
+    .attribution {
+    }
+
+    .quotemark {
+        font-size: 120px;
+        float: left;
+        line-height: 50px;
+        font-family: "Bitter", serif;
+    }
+    
+    a {
+        color:#1A467D;
+    }
 }
 
 @media (min-width: 576px) {
     #content {
         width: 80%;
+    }
+    
+    .pullquote {
+        width:50%;
     }
 }
 
