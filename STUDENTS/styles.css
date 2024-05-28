@@ -1,367 +1,87 @@
-/*
- * Plum = #8E5572
- Purple = #443850
- Green = #BBBE64
- White = #F2F7F2
- Beige = #BCAA99
- 
- Vanilla Lime = #FAF2A1
- Persian red = #C3423F
- Air Blue = #759AAB
- Marian Blue = #453F78
- English Violet = #401F3E
- Dark Purple = #3F2E56
-*/
-
-/*regular smallest media screen size */
 @media {
     img {
-        width: 70%;
-        border-radius: 15%;
-        padding: 25px 0px 10px 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
     }
 
     #topper {
-        background-color: #bcaa99;
-        padding-top: 70px;
-        padding-bottom: 20px;
+        background-image: url(cover.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-color: #f2e3ca;
+    }
+
+    #byline {
+        padding: 100px 10px 700px 10px;
+        font-family: Libre Baskerville;
+    }
+
+    byline2 {
+        padding: 100px 10px 700px 10px;
+        font-family: Libre Baskerville;
+    }
+
+    #caption {
+        font-size: 13px;
+        text-align: center;
+        font-family: Libre Baskerville;
+    }
+
+    body {
+        background-color: #f2e3ca;
     }
 
     h1 {
-        font-size: 75px;
-        color: #8e5572;
-        font-family: "Alegreya", serif;
-        font-optical-sizing: auto;
-        font-weight: 650;
+        padding: 60px 10px 700px 10px;
+        font-family:
+            League Gothic,
+            sans-serif;
+        font-style: italic;
+        font-size: 60px;
         text-align: center;
-        text-decoration:;
-        font-stretch: expanded;
+    }
+
+    .container-fluid {
+        background-color: #f2e3ca;
+        font-family: Libre Baskerville;
     }
 
     h2 {
+        font-family: League Gothic;
+        font-size: 45px;
+    }
+
+    .league-gothic {
+        font-family: "League Gothic", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "width" 100;
+    }
+
+    .pullquote {
+        padding: 10px 20px 10px 20px;
+        background-color: #e9c9bc;
+    }
+    
+    .quotemark {
         font-size: 50px;
-        color: #443850;
-        font-family: "Alegreya", serif;
-        font-weight: 100;
+        font-family: Georgia, serif;
     }
-
-    p,
-    li {
-        font-family: "Work Sans", sans-serif;
-        font-size: 18px;
-        color: #443850;
-    }
-
-    /* Experience text css */
-    .head {
-        color: #8e5572;
-        font-weight: bold;
-    }
-
-    .base {
-        color: #443850;
-        font-weight: 600;
-    }
-
-    .thin {
-        font-weight: 250;
-        padding-bottom: 10px;
-    }
-
-    .blob {
-        padding: 1px 1px;
-        margin: 20px 15px;
-        border-left-style: solid;
-        border-left-color: #faf2a1;
-    }
-
-    .skills {
-        padding: 1px 1px;
-        margin: 15px;
-        text-align: center;
-        border-left-style: solid;
-        border-left-color: #faf2a1;
-    }
-
-    .edu {
-        padding: 5px 5px 30px 5px;
-        margin: 15px;
-        border-left-style: solid;
-        border-left-color: #faf2a1;
-    }
-
-    #jour {
-        /* "Journalism Student" */
-        text-align: center;
-        background-color: #bcaa99;
-    }
-
-    .heading {
-        background-color: #bbbe64;
-        padding: 10px 10px 5px 10px;
-        border-bottom: solid;
-        border-bottom-width: medium;
-        border-bottom-color: #f2f7f2;
-    }
-    .devin-button {
-        align-content: center;
-        border-width: 100;
-        border-color: #443850;
-        width: 40%;
-        height: 27%;
-        padding: 10px;
-        display: block;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #8e5572;
-        color: #bbbe64;
-        font-family: "Work Sans", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        transition: 0.2s;
-    }
-
-    .devin-button:focus {
-        background-color: #bbbe64;
-        color: #401f3e;
-        border-color: #401f3e;
-        transition: 0.5s;
-        font-weight: bolder;
-    }
-
-    .devin-button:active {
-        background-color: #759aab;
-        transition: 0.2s;
-    }
-
-    #sections {
-        background-color: #bcaa99;
-        margin: 0px;
-    }
-
-    #nav {
-        background-color: #f2f7f2;
-        font-family: "Work Sans", sans-serif;
-        font-weight: 400px;
-        font-size: 16px;
-        text-align: center;
-        padding: 10px;
-    }
-
-    #footer {
-        color: #faf2a1;
-        background-color: #8e5572;
-        font-family: "Work Sans", sans-serif;
-        font-size: 10px;
-        padding: 5px 5px 50px 5px;
-    }
-    /*link traits for phone */
-
-    a:visited {
-        color: #443850;
-    }
-
-    a:link {
-        color: #443850;
-    }
-    a:focus {
-        color: #c3423f;
-    }
-
-    a:active {
-        color: #759aab;
+    
+    .attribution {
+        text-align: right;
+        font-style: bold;
     }
 }
 
-/*
-@media (min-width:576px) {
-    
-} */
-
 @media (min-width: 576px) {
-    img {
-        width: 70%; /* 70% * 0.9 */
-        border-radius: 15%; /* 15% * 0.9 */
-        padding: 25px 0; /* 25px * 0.9 */
-        display: block;
-        margin-left: auto;
-        margin-right: 70px; /* 70px * 0.9 */
-        margin-top: 18px; /* 20px * 0.9 */
+    #content {
+        width: 100%;
     }
+}
 
-    #topper {
-        background-color: #bcaa99;
-        padding: 27px 90px; /* 30px * 0.9, 100px * 0.9 */
-    }
-
-    #sections {
-        background-color: #bcaa99;
-    }
-
-    #bio {
-        padding-top: 49.5px; /* 55px * 0.9 */
-        padding-left: 72px; /* 80px * 0.9 */
-    }
-
-    h1 {
-        font-size: 40px; /* 35px * 0.9 */
-        color: #8e5572;
-        font-family: "Alegreya", serif;
-        font-weight: bold;
-        text-align: center;
-        font-stretch: expanded;
-        transition: 0.3s;
-    }
-
-    h1:hover {
-        font-size: 55px; /* 45px * 0.9 */
-        transition: 0.5s;
-    }
-
-    h2 {
-        font-size: 60px; /* 60px * 0.9 */
-        color: #443850;
-        font-family: "Alegreya", serif;
-        font-weight: 100;
-    }
-
-    p,
-    li {
-        font-family: "Work Sans", sans-serif;
-        font-size: 23px; /* 25px * 0.9 */
-        color: #443850;
-    }
-
-    /* Experience text css */
-    .head {
-        color: #8e5572;
-        font-weight: bold;
-    }
-
-    .base {
-        color: #443850;
-        font-weight: 540; /* 600 * 0.9 */
-    }
-
-    .thin {
-        font-weight: 225; /* 250 * 0.9 */
-        padding-bottom: 9px; /* 10px * 0.9 */
-    }
-
-    .blob {
-        padding: 13.5px 27px; /* 15px * 0.9, 30px * 0.9 */
-        margin: 27px 139.5px; /* 30px * 0.9, 155px * 0.9 */
-        border-left-style: solid;
-        border-left-color: #faf2a1;
-    }
-
-    .skills {
-        padding: 60px 40px; /* 100px * 0.9, 50px * 0.9 */
-        margin: 13.5px 139.5px; /* 15px * 0.9, 155px * 0.9 */
-        text-align: center;
-        border-left-style: solid;
-        border-left-color: #faf2a1;
-    }
-
-    .edu {
-        padding: 45px 4.5px 135px 45px; /* 50px * 0.9, 5px * 0.9, 150px * 0.9, 50px * 0.9 */
-        margin: 13.5px 139.5px; /* 15px * 0.9, 155px * 0.9 */
-        border-left-style: solid;
-        border-left-color: #faf2a1;
-    }
-
-    #jour {
-        text-align: center;
-        background-color: #bcaa99;
-        font-size: 72px; /* 80px * 0.9 */
-    }
-
-    .heading {
-        background-color: #bbbe64;
-        padding: 18px 9px 9px 90px; /* 20px * 0.9, 10px * 0.9, 100px * 0.9 */
-        border-bottom: solid;
-        border-bottom-width: medium;
-        border-bottom-color: #f2f7f2;
-    }
-
-    .devin-button {
-        align-content: center;
-        text-align: center;
-        border-width: 90; /* 100 * 0.9 */
-        border-color: #443850;
-        width: 40.5%; /* 45% * 0.9 */
-        height: 27%; /* 30% * 0.9 */
-        padding: 9px; /* 10px * 0.9 */
-        display: block;
-        margin-top: 18px; /* 20px * 0.9 */
-        margin-bottom: 27px; /* 30px * 0.9 */
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #8e5572;
-        color: #bbbe64;
-        font-family: "Work Sans", sans-serif;
-        font-weight: 180; /* 200 * 0.9 */
-        font-size: 27px; /* 30px * 0.9 */
-        transition: 0.3s;
-    }
-
-    .devin-button:hover {
-        background-color: #bbbe64;
-        color: #401f3e;
-        border-color: #401f3e;
-        transition: 0.5s;
-        font-weight: bold;
-    }
-
-    .devin-button:active {
-        background-color: #759aab;
-        transition: 0.2s;
-    }
-
-    #nav {
-        background-color: #f2f7f2;
-        font-family: "Work Sans", sans-serif;
-        font-weight: 360; /* 400 * 0.9 */
-        font-size: 22.5px; /* 25px * 0.9 */
-        text-align: center;
-        padding: 27px; /* 30px * 0.9 */
-        border-style: solid;
-        border-width: 0px 13.5px; /* 15px * 0.9 */
-        border-color: #759aab;
-    }
-
-    #footer {
-        color: #faf2a1;
-        background-color: #8e5572;
-        font-family: "Work Sans", sans-serif;
-        font-size: 13.5px; /* 15px * 0.9 */
-        padding: 9px 9px 9px 18px; /* 10px * 0.9, 10px * 0.9, 20px * 0.9 */
-    }
-
-    /*link traits */
-
-    a:visited {
-        color: #443850;
-    }
-
-    a:link {
-        color: #443850;
-    }
-
-    a:hover {
-        color: #c3423f;
-    }
-
-    a:focus {
-        color: #c3423f;
-    }
-
-    a:active {
-        color: #759aab;
+@media (min-width: 992px) {
+    #content {
+        width: 60%;
     }
 }

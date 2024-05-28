@@ -22,7 +22,9 @@
         background-size: cover;
         background-position: 10% 10%;
         height: 100vh;
-        /*background-color:#1A467D;*/
+        margin:0px;
+        padding:0px;
+        position:relative;
     }
 
     #topper2 {
@@ -37,14 +39,23 @@
         margin:0px 0px 0px 0px;
         padding:0px;
         position: absolute;
-        top:80px;
+        top:40px;
     }
+    
     
     #imgh1 {
         padding: 10px 10px 10px 10px;
-        margin: 300px 100px 0px 0px;
+        margin: 10% 50% 0px 0px;
         background-color: #000000;
         color: white;
+    }
+    
+    #topcap {
+        font-family:serif;
+       background-color:rgba(0, 0, 0, 0.3);
+        position:absolute;
+        bottom:0;
+        width:100%;
     }
 
     .caption {
@@ -96,6 +107,17 @@
 
     a {
         color: #1a467d;
+    }
+    
+    #topperimage {
+        background-image: url(oakImage-1708009624257-superJumbo.webp);
+        background-size:cover;
+        padding:0px;
+        margin:0px;
+    }
+    
+    #imagebig {
+        height:50vh;
     }
 }
 
